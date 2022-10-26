@@ -37,7 +37,7 @@ public class OpenCSV {
     }
 
     public void getRank(String name, String gender, int year) throws IOException, CsvException {
-        String fileName = "/Users/nithyam/Downloads/learning/java/demo/src/main/resources/yob" + year + "short.csv";
+        String fileName = "=> Update your path => /yob" + year + "short.csv";
         HashMap<String, Integer> names = new HashMap<>();
         try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
             String[] lineInArray;
